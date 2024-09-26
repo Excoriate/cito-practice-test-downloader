@@ -1,0 +1,11 @@
+[package]
+name = "document_downloader"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["blocking"] }
+scraper = "0.13"
+url = "2.3"
+anyhow = "1.0"
+clap = { version = "4.4", features = ["derive"] }
